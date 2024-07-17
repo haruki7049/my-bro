@@ -1,9 +1,9 @@
 #! /usr/bin/env sh
 
-if [ "$1" ]; then
-    echo "$1 is my brother!!"
-elif [ "$1" = "nanaumi" ]; then
+if [ "$1" = "nanaumi" ]; then
     echo "$1 is not my brother..."
+elif [ "$1" ]; then
+    echo "$1 is my brother!!"
 else
     echo "No arguments. Who are you...?"
     echo "exited with code 1."
