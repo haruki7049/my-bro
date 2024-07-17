@@ -1,0 +1,9 @@
+#! /usr/bin/env sh
+
+if [ "$1" ]; then
+    echo "$1 are my brother!!"
+else
+    echo "No arguments. Who are you...?"
+    echo "exited with code 1."
+    exit 1
+fi
